@@ -1,0 +1,44 @@
+body {
+    margin:0px;
+    font-family:"Cairo";
+    direction:rtl;
+}
+h1 {
+    text-align:center;
+    border:5px blue solid;
+    background:black;
+    color:white;
+    margin:0px;
+    border-radius:7px;
+}
+#eufa {
+    width:100%;
+    height:250px;
+    border-radius:10px;
+    transition:all 3s;
+}
+#eufa:hover{
+    width:50%;
+    height:125px;
+}
+table{
+    width:100%;
+    background:gray;
+    margin:0px;
+    text-align:center;
+    border:solid 5px black;
+    color:white;
+    border-collapse:collapse;
+}
+td,th {
+    border:solid 5px black;
+}
+#flag{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#eufb {
+    width:100%;
+    height:100px;
+}
